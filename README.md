@@ -1,3 +1,6 @@
+# About
+This is a Task given to me by DCKAP for interview process.
+The Goal is to develop a Dashboard mockup as show in the given file.
 
 # Test Case Management System
 
@@ -15,8 +18,8 @@ A Flask-based web application for managing test cases in a hierarchical module s
 ## Tech Stack
 
 - **Backend**: Flask (Python)
-- **Database**: SQLAlchemy ORM
-- **Frontend**: HTML, JavaScript (with tree view implementation)
+- **Database**: SQLAlchemy ORM , PostgreSQL
+- **Frontend**: HTML, CSS, JavaScript (with tree view implementation)
 - **UI Components**: Bootstrap for modals and layout
 - **Notifications**: Slack API integration
 
@@ -38,13 +41,13 @@ cd test-case-management
 
 2. Create a virtual environment and activate it:
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+Create   : python -m venv venv
+Activate : venv\Scripts\activate.bat
 ```
 
 3. Install dependencies:
 ```bash
-pip install flask sqlalchemy python-dotenv
+pip install -r requirements.txt
 ```
 
 4. Create a `.env` file in the root directory:
